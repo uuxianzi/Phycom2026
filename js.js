@@ -12,7 +12,7 @@ function updateWeatherImage(isRaining) {
     } else if (isRaining === "DRY") {
         weatherImage.style.display = "block";
         weatherImage.src = "cloud.webp";
-        status.innerText = "Cloudy!";
+        status.innerText = "Mostly clear!";
     }
 }
 
